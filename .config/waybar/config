@@ -14,6 +14,9 @@
         "all-outputs": true,
         "warp-on-scroll": false,
         "format": "{name}",
+        "persistent-workspaces": {
+          "*": 5
+        }
     },
     
     "tray": {
