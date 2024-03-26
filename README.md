@@ -6,4 +6,5 @@ Personal Hyprland dotfiles inpired and copied from others
 
 ### Some configs taken from:
 
-- https://github.com/SolDoesTech/HyprV2
+- https://github.com/SolDoesTech/HyprV2 for the base hyprland config
+- https://github.com/justinmdickey/publicdots for the hyprlock config
