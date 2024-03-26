@@ -20,7 +20,8 @@ pavucontrol
 brightnessctl 
 bluez 
 bluez-utils 
-blueman
+network-manager-applet
+overskride
 gvfs 
 thunar-archive-plugin 
 file-roller 
