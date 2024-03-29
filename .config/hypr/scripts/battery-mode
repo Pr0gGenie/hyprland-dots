@@ -1,6 +1,23 @@
-#Need to work on this
-# Copy the hyprdots gamemode sh file
-# Change my asusctl settings
-# 	Should lower kde board brightness
-# 	Should change asusctl profile to quiet
-# 	Should change asusctl fan to quiet
+# If touch off exists
+if [ -f "off" ]; then
+  # Replace the 1920x1080@60 with 1920x1080@300 in the file ../hyprland.conf
+  sed -i 's/1920x1080@60/1920x1080@300/g' ../hyprland.conf
+
+  # Changes asusctl settings
+  asusctl profile -P Performance
+  asusctl -k high
+
+  # Changes hyprland settings back
+  hyprctl reload
+
+else
+
+  # Replace the 1920x1080@300 with 1920x1080@60 in the file ../hyprland.conf
+  sed -i 's/1920x1080@300/1920x1080@60/g' ../hyprland.conf
+
+  # Changes asusctl settings
+  asusctl profile -P Quiet
+  asusctl -k off
+
+fi
+
