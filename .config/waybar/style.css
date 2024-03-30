@@ -91,6 +91,10 @@ window.empty #window {
     animation-direction: alternate;
 }
 
+#pulseaudio {
+  padding-right: 1em;
+}
+
 #tray > .needs-attention {
     color: #eb4d4b;
 }
