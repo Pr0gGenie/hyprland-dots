@@ -1,7 +1,7 @@
 # hyprland-dots
 Personal Hyprland dotfiles inpired and copied from others
 
-![screenshot](https://github.com/Pr0gGenie/hyprland-dots/screenshot.png)
+![screenshot](https://github.com/Pr0gGenie/hyprland-dots/blob/main/screenshot.png)
 
 
 ### Some configs taken from:
