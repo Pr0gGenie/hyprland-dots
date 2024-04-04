@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Note: 
+# Remove anything related to asusctl if you don't have an asus laptop
+# Change the refresh rate to your liking
+
 # If touch off exists
 if [ -f "$HOME/.config/hypr/scripts/off" ]; then
   # Replace the 1920x1080@60 with 1920x1080@300 in the file ../hyprland.conf
