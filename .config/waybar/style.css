@@ -7,43 +7,41 @@
 }
 
 window#waybar {
-    background-color: transparent;
-    /*border-bottom: 0px solid rgba(100, 114, 125, 0.5);*/
-    color: #ffffff;
+    background-color: transparent; /* Added darker color */
+    border-bottom: 0px solid rgba(30, 31, 32, 0.5); /* Added color to the bottom border */
+    color: #eb4d4b; /* Changed font color to match theme */
     transition-property: background-color;
     transition-duration: .5s;
 }
 
 button {
-    /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: inset 0 -3px transparent; 
-    /* Avoid rounded borders under each button name */
     border: none;
     border-radius: 0;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: inherit;
+    background: #272829; /* Changed hover color to match theme */
 }
 
 #workspaces button {
     background-color: transparent;
-    color: #ffffff;
+    color: #eb4d4b; /* Changed font color to match theme */
 }
 
 #workspaces button:hover {
-    background-color: rgba(60, 76, 89, 0.3);
-    border-radius: 2rem;
+    background-color: rgba(25, 36, 71, 0.3); /* Changed hover color to match theme */
+    border-radius: 4rem; /* Increased border radius for a smoother look */
 }
 
 #workspaces button.active {
-    background-color: #071521;
-    border-radius: 2rem;
+    background-color: #272829; /* Added darker color */
+    border-radius: 4rem; /* Increased border radius for a smoother look */
 }
 
 #workspaces button.urgent {
-    color: #eb4d4b;
+    color: #eb4d4b; /* Changed font color to match theme */
 }
 
 #clock,
@@ -57,9 +55,9 @@ button:hover {
 #workspaces {
     padding: 0 4px;
     margin: 2px; 
-    color: #ffffff;
-    background-color: #272829;
-    border-radius: 4px;
+    color: #ffffff; /* Changed font color to match theme */
+    background-color: #363738; /* Added darker color */
+    border-radius: 4px; /* Increased border radius for a smoother look */
 }
 
 window.empty #window {
@@ -67,7 +65,7 @@ window.empty #window {
 }
 
 #workspaces button.empty {
-    color: #5f6266;
+    color: #6c7073; /* Changed font color to match theme */
 }
 
 #backlight {
@@ -83,14 +81,14 @@ window.empty #window {
 }
 
 #battery.charging, #battery.plugged {
-    color: #26A65B;
+    color: #40c4ff; /* Changed font color to match theme */
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
+    background-color: #d9534f; /* Added darker and more contrasty color */
+    color: #ffffff; /* Changed font color to match theme */
     animation-name: blink;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s; /* Increased duration of blinking effect */
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -101,5 +99,4 @@ window.empty #window {
 }
 
 #tray > .needs-attention {
-    color: #eb4d4b;
-}
+    color: #d9534f; /* Changed font color to match theme */}
