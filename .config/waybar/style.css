@@ -48,6 +48,7 @@ button:hover {
 
 #clock,
 #battery,
+#idle_inhibitor,
 #backlight,
 #pulseaudio,
 #wireplumber,
@@ -71,6 +72,10 @@ window.empty #window {
 
 #backlight {
     padding: 0 8px; 
+}
+
+#idle_inhibitor {
+    padding-right: 6px;
 }
 
 #battery {

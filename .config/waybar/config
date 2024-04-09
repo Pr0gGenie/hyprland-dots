@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "battery", "pulseaudio", "backlight"],
+    "modules-right": ["tray", "battery", "pulseaudio", "idle_inhibitor", "backlight"],
     
     // Modules configuration
     "hyprland/workspaces": {
@@ -30,6 +30,13 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     }, 
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "󰅶",
+            "deactivated": "󰾪"
+        }
+    },
     "backlight": {
         // "device": "acpi_video1",
         "format": "{icon}",
