@@ -28,7 +28,8 @@
         // "timezone": "America/New_York",
         "format": "{:%I:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+        "on-click-right": "kitty -T update-sys -e yay -Syu --devel"
     }, 
     "idle_inhibitor": {
         "format": "{icon}",
