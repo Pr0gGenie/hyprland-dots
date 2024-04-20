@@ -11,7 +11,11 @@ mako
 swappy 
 grim 
 slurp 
-thunar 
+nemo
+nemo-fileroller
+nemo-preview
+nemo-image-converter
+imagemagick
 polkit-gnome
 pipewire
 wireplumber
