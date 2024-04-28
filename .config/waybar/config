@@ -1,5 +1,6 @@
 {
     "layer": "top", // Waybar at top layer
+        "output": "HDMI-A-1",
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 10, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
@@ -16,7 +17,8 @@
         "warp-on-scroll": false,
         "format": "{name}",
         "persistent-workspaces": {
-          "*": 5
+          "*": 5,
+          "HDMI-A-1": [ 1,2,3,4,5 ] 
         }
     },
     
