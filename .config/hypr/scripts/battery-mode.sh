@@ -7,7 +7,7 @@
 # If touch off exists
 if [ -f "$HOME/.config/hypr/scripts/off" ]; then
   # Replace the 1920x1080@60 with 1920x1080@300 in the file ../hyprland.conf
-  sed -i 's/eDP-1,1920x1080@60/eDP-1,highres/g' "$HOME/.config/hypr/hyprland.conf"
+  # sed -i 's/eDP-1,1920x1080@60/eDP-1,highres/g' "$HOME/.config/hypr/hyprland.conf"
 
   # Changes asusctl settings
   asusctl profile -P Performance
@@ -24,7 +24,7 @@ if [ -f "$HOME/.config/hypr/scripts/off" ]; then
 else
 
   # Replace the 1920x1080@300 with 1920x1080@60 in the file ../hyprland.conf
-  sed -i 's/eDP-1,highres/eDP-1,1920x1080@60/g' "$HOME/.config/hypr/hyprland.conf"
+  # sed -i 's/eDP-1,highres/eDP-1,1920x1080@60/g' "$HOME/.config/hypr/hyprland.conf"
 
   # Changes asusctl settings
   asusctl profile -P Quiet
