@@ -1,9 +1,16 @@
+Hyprland Packages:
 hyprland - Package related to Hyprland distribution
 hyprpaper - Hyprland's customized paper application
 hypridle - Hyprland's screen idle utility
 hyprlock - Hyprland's screen lock tool
 xdg-desktop-portal-hyprland - Hyprland customized desktop portal
+
+Terminal Tools:
 kitty - Fast, featureful, GPU accelerated terminal emulator
+brightnessctl - Backlight control tool for Linux
+btop - Task manager for Linux
+
+Wayland Tools:
 waybar - Highly customizable wayland bar for Sway and Wlroots based compositors
 rofi-lbonn-wayland - Drun launcher for Wayland with added Lbonn workarounds
 wlogout - Logout menu for Wayland, designed to be used with Wlroots based compositors
@@ -12,29 +19,34 @@ swappy - Simple screenshot and wallpaper tool for Wayland
 grim - Screenshot utility for Wayland
 slurp - Select a region in Wayland and output the geometry
 nwg-displays - GUI tool to manage displays in Wayland
+wl-clipboard - Clipboard manager for Wayland
+cliphist - Clipboard management and history tool
+
+Desktop and File Management Tools:
 nemo - File manager for Cinnamon desktop
 nemo-fileroller - File roller integration for Nemo file manager
 nemo-image-converter - Image converter extension for Nemo file manager
-imagemagick - Image manipulation software
-polkit-gnome - Authentication agent for PolicyKit
+gvfs - GNOME Virtual File System
+thunar-archive-plugin - Plugin for creating and modifying archives in Thunar
+file-roller - Archive manager for GNOME
+
+Audio and Video Tools:
 pipewire - Server for handling multimedia on Linux
 wireplumber - Modular Audio and Video routing engine
 pamixer - Pulseaudio command-line mixer
 pavucontrol - PulseAudio volume control
-brightnessctl - Backlight control tool for Linux
+
+Bluetooth and Network Tools:
 bluez - Bluetooth tools and daemons
 bluez-utils - Utilities for configuring and interacting with Bluez
 network-manager-applet - Applet for Network Manager
-overskride - Override tool for Openbox
-gvfs - GNOME Virtual File System
-thunar-archive-plugin - Plugin for creating and modifying archives in Thunar
-file-roller - Archive manager for GNOME
-btop - Task manager for Linux
+
+General Tools:
+imagemagick - Image manipulation software
+polkit-gnome - Authentication agent for PolicyKit
 pacman-contrib - Contributed scripts for pacman
 ttf-jetbrains-mono-nerd - JetBrains Mono Nerd Font Complete
 noto-fonts-emoji - Google Noto Fonts for emoji support
 ttf-font-awesome - Iconic font designed for Bootstrap
 qt5-wayland - Qt5 package with Wayland support
 qt6-wayland - Qt6 package with Wayland support
-wl-clipboard - Clipboard manager for Wayland
-cliphist - Clipboard management and history tool
