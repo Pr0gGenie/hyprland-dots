@@ -1,1 +1,0 @@
-- Add gBar as the main bar
