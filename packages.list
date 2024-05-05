@@ -11,7 +11,7 @@ brightnessctl - Backlight control tool for Linux
 btop - Task manager for Linux
 
 Wayland Tools:
-waybar - Highly customizable wayland bar for Sway and Wlroots based compositors
+gBar - Blazingly fast status bar written with GTK
 rofi-lbonn-wayland - Drun launcher for Wayland with added Lbonn workarounds
 wlogout - Logout menu for Wayland, designed to be used with Wlroots based compositors
 mako - Light weight notification daemon for Wayland that supports Gtk and Qt based interfaces
