@@ -1,5 +1,5 @@
 # hyprland-dots
-Personal Hyprland dotfiles inspired and copied from others
+Personal Hyprland dotfiles inspired and taken from others
 
 ![screenshot](https://github.com/Pr0gGenie/hyprland-dots/blob/main/screenshot.png)
 
