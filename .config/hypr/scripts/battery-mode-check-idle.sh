@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ -f "$HOME/.config/hypr/scripts/off" ]; then
   asusctl -k high  

@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # If there is a file off in ../hypr/scripts
-
 if [ -f "$HOME/.config/hypr/scripts/off" ]; then
   mv "$HOME/.config/hypr/scripts/off" "$HOME/.config/hypr/scripts/on"
 else

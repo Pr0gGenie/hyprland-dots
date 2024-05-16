@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Note: 
 # Remove anything related to asusctl if you don't have an asus laptop
